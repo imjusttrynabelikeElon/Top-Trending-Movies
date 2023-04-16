@@ -12,7 +12,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     @IBOutlet var tableView: UITableView!
-    
+    //
     //IBoutlets:
     
     
@@ -25,12 +25,12 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-         configView()
+        
+        configView()
         bindViewModel()
     }
     
-
+    
     
     func configView() {
         self.title = "Top 20 Trending Movies"
@@ -81,5 +81,5 @@ class MainViewController: UIViewController {
         super.viewDidAppear(animated)
         viewModel.getData()
     }
-
+    
 }

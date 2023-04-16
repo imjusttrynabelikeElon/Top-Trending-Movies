@@ -54,5 +54,5 @@ class MainMovieCell: UITableViewCell {
         self.movieImageView.sd_setImage(with: viewModel.imageURL)
         
     }
-
+    
 }
